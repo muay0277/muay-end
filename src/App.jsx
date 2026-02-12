@@ -1,3 +1,5 @@
+import heroImg from "../public/images/hero.jpg";
+
 import { useEffect, useState } from "react";
 import "./App.css";
 
@@ -17,7 +19,7 @@ const STATS = [
   { num: "99%", label: "Customer Satisfaction" },
   { num: "24/7", label: "Support" },
   { num: "50+", label: "Projects Delivered" },
-  { num: "1–3 ມື້", label: "Go-live (โดยเฉลี่ย)" },
+  { num: "1–3 ມື້", label: "Go-live (ໂດຍສະເລ່ຍ)" },
 ];
 
 const WHY = [
@@ -563,16 +565,16 @@ export default function App() {
                 <h3 className="h3">ຕິດຕໍ່ໄດ້ທັນທີ</h3>
                 <div className="contactList">
                   <div>
-                    <b>📞 ໂທ:</b> 20xxxxxxx
+                    <b>📞 ໂທ:</b> 2092949696
                   </div>
                   <div>
-                    <b>💬 WhatsApp:</b> 20xxxxxxx
+                    <b>💬 WhatsApp:</b> 2092949696
                   </div>
                   <div>
                     <b>📩 Facebook:</b> VL Smartgenai
                   </div>
                 </div>
-                <div className="hint">* ປ່ຽນເປັນຂໍ້ມູນຈິງຂອງເຈົ້າໄດ້</div>
+               
               </div>
             </div>
 
@@ -587,7 +589,7 @@ export default function App() {
                 <button
                   className="btn btn--primary btn--full"
                   onClick={() =>
-                    alert("ໃຫ້ເຈົ້າແທນເປັນລິ້ງ WhatsApp/FB ຈິງໄດ້")
+                    alert("https://wa.me/8562092949696")
                   }
                 >
                   ສົ່ງຂໍ້ມູນເພື່ອຂໍ Demo
